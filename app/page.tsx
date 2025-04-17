@@ -50,7 +50,7 @@ export default function App() {
           <Rewards />
         </TabsContent>
 
-        <TabsList className="h-16 grid grid-cols-4 bg-white border-t">
+        <TabsList className="fixed bottom-0 w-full h-16 grid grid-cols-4 bg-white border-t">
           <TabsTrigger
             value="home"
             className="flex flex-col items-center justify-center data-[state=active]:text-purple-600"
